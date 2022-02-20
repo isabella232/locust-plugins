@@ -28,9 +28,9 @@ jobs:
       - name: Docker build and push timescaledb loucust plugin
         uses: docker/build-push-action@v2
         with:
-          file: Dockerfile
+          file: ./locust_plugins/timescale/locust-timescale/Dockerfile
           tags: |
             eu.gcr.io/dev-container-repo/radixdlt-locust-timescale:latest
           push: true
-          context: ../../locust_plugins/timescale/locust-timescale
+          context: ./locust_plugins/timescale/locust-timescale
  
