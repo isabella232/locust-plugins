@@ -34,4 +34,3 @@ jobs:
             eu.gcr.io/dev-container-repo/radixdlt-locust-timescale:latest
           push: true
           context: ./locust_plugins/timescale/locust-timescale
- 
