@@ -2,7 +2,7 @@ name: build-and-push-image
 on:
   push:
     branches:
-      - DO-338-timescaledb-plugin
+      - master
 jobs:
   cancel_running_workflows:
     name: Cancel running workflows
